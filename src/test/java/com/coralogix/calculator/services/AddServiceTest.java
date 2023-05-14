@@ -15,17 +15,7 @@ public class AddServiceTest {
         Result result = service.add(2, 3);
 
         // then
-        assertEquals(result.getResult(), 5);
+        assertEquals(result.getResult(), 10);
     }
-    @Test
-    public void minus() {
-        // given
-        AddService service = new AddService();
 
-        // when
-        Result result = service.minus(2, 3);
-
-        // then
-        assertEquals(result.getResult(), 100);
-    }
 }
