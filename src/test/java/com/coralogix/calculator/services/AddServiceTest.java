@@ -15,7 +15,7 @@ public class AddServiceTest {
         Result result = service.add(2, 3);
 
         // then
-        assertEquals(result.getResult(), 10);
+        assertEquals(result.getResult(), 5);
     }
 
 }
