@@ -23,7 +23,7 @@ public class AddServiceTest {
         AddService service = new AddService();
 
         // when
-        Result result = service.add(2, 3);
+        Result result = service.add(20, 20);
 
         // then
         assertEquals(result.getResult(), 40);
