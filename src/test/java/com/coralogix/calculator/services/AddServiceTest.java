@@ -23,10 +23,10 @@ public class AddServiceTest {
         AddService service = new AddService();
 
         // when
-        Result result = service.add(20, 20);
+        Result result = service.add(8, 12);
 
         // then
-        assertEquals(result.getResult(), 40);
+        assertEquals(result.getResult(), 20);
     }
 
 }
